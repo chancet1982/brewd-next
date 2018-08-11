@@ -1,4 +1,4 @@
-import {IIngredientTypeFermentable} from "@/consts/Types";
+import {IIngredientTypeFermentable} from "@/consts/IngredientTypes";
 import CalculateSRM from '@/helpers/CalculateSRM'
 
 //European Brewing Convention (EBC) equals approximately 1.97 * SRM (Daniels). 

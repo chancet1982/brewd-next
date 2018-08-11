@@ -6,15 +6,16 @@ export interface IIngredientTypeFermentable {
 	color: number; //figure out what unit it should be using.
 	maxInBatch: number;
 	tags: string [];
-	weight: number;
+	weight?: number;
 }
 
 export interface IIngredientTypeHops {
 	name: string;
 	description: string;
-	bu: number;
+	aa: number;
 	tags: string [];
-	weight: number;
+	weight?: number;
+	boilTime?: number;
 }
 
 export interface IIngredientTypeYeast {
@@ -23,11 +24,11 @@ export interface IIngredientTypeYeast {
 	minTemp: number;
 	maxTemp: number;
 	origin: string;
-	weight: number;
+	weight?: number;
 }
 
 export interface IIngredientTypeOther {
 	name: string;
 	description: string;
-	weight: number;
+	weight?: number;
 }
